@@ -7,6 +7,8 @@
 
 ## setup
 
+change `DIR` value in each shell script.
+
 ### Motion
 
 ### slackcat
