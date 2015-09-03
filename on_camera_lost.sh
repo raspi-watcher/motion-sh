@@ -2,7 +2,7 @@
 
 EVENT_TYPE=on_camera_lost
 
-DIR=/home/katososuke/motion/motion-sh/
+DIR=/home/pi/motion/motion-sh/
 . ${DIR}path.conf
 . ${DIR}token.conf
 CHANNEL=camera
