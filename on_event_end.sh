@@ -1,6 +1,6 @@
 #!/bin/sh
 
-EVENT_TYPE=on_event_start
+EVENT_TYPE=on_event_end
 
 DIR=/home/katososuke/motion/motion-sh/
 . ${DIR}path.conf

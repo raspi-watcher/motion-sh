@@ -1,6 +1,6 @@
 #!/bin/sh
 
-EVENT_TYPE=on_event_start
+EVENT_TYPE=on_camera_lost
 
 DIR=/home/katososuke/motion/motion-sh/
 . ${DIR}path.conf
