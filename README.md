@@ -32,6 +32,12 @@ sudo chgrp motion ./motion-sh
 sudo chmod g+rwx ./motion-sh
 sudo chmod -R g+w ./motion-sh
 cd ./motion-sh
+mkdir frames
+sudo chgrp motion ./frames
+sudo chmod g+rwx ./frames
+mkdir gif
+sudo chgrp motion ./gif
+sudo chmod g+rwx ./gif
 echo "SLACKCAT="`which slackcat` >> path.conf
 echo "SLACK_TOKEN="$SLACK_TOKEN >> token.conf
 ```
