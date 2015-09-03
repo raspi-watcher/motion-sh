@@ -7,4 +7,5 @@ DIR=/home/pi/motion/motion-sh/
 . ${DIR}token.conf
 CHANNEL=camera
 
-echo `date`$EVENT_TYPE | $SLACKCAT -k $SLACK_TOKEN -c $CHANNEL 2> ${DIR}${EVENT_TYPE}.log
+echo -e `date`"\n"$EVENT_TYPE | $SLACKCAT -k $SLACK_TOKEN -c $CHANNEL 2> ${DIR}${EVENT_TYPE}.log
+
